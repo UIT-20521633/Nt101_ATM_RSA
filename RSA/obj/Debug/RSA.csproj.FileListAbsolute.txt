@@ -1,0 +1,12 @@
+C:\Users\thanh\OneDrive\Máy tính\RSA\RSA\bin\Debug\RSA.exe.config
+C:\Users\thanh\OneDrive\Máy tính\RSA\RSA\bin\Debug\RSA.exe
+C:\Users\thanh\OneDrive\Máy tính\RSA\RSA\bin\Debug\RSA.pdb
+C:\Users\thanh\OneDrive\Máy tính\RSA\RSA\obj\Debug\RSA.csproj.AssemblyReference.cache
+C:\Users\thanh\OneDrive\Máy tính\RSA\RSA\obj\Debug\RSA.csproj.SuggestedBindingRedirects.cache
+C:\Users\thanh\OneDrive\Máy tính\RSA\RSA\obj\Debug\RSA.Form1.resources
+C:\Users\thanh\OneDrive\Máy tính\RSA\RSA\obj\Debug\RSA.Properties.Resources.resources
+C:\Users\thanh\OneDrive\Máy tính\RSA\RSA\obj\Debug\RSA.csproj.GenerateResource.cache
+C:\Users\thanh\OneDrive\Máy tính\RSA\RSA\obj\Debug\RSA.csproj.CoreCompileInputs.cache
+C:\Users\thanh\OneDrive\Máy tính\RSA\RSA\obj\Debug\RSA.exe
+C:\Users\thanh\OneDrive\Máy tính\RSA\RSA\obj\Debug\RSA.pdb
+C:\Users\thanh\OneDrive\Máy tính\RSA\RSA\obj\Debug\RSA.HaskCheck.resources
