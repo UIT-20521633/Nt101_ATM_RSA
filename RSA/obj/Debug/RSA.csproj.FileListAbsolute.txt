@@ -10,3 +10,14 @@ C:\Users\thanh\OneDrive\Máy tính\RSA\RSA\obj\Debug\RSA.csproj.CoreCompileInput
 C:\Users\thanh\OneDrive\Máy tính\RSA\RSA\obj\Debug\RSA.exe
 C:\Users\thanh\OneDrive\Máy tính\RSA\RSA\obj\Debug\RSA.pdb
 C:\Users\thanh\OneDrive\Máy tính\RSA\RSA\obj\Debug\RSA.HaskCheck.resources
+C:\Users\DELL\Source\Repos\Nt101_ATM_RSA\RSA\bin\Debug\RSA.exe.config
+C:\Users\DELL\Source\Repos\Nt101_ATM_RSA\RSA\bin\Debug\RSA.exe
+C:\Users\DELL\Source\Repos\Nt101_ATM_RSA\RSA\bin\Debug\RSA.pdb
+C:\Users\DELL\Source\Repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.csproj.AssemblyReference.cache
+C:\Users\DELL\Source\Repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.Form1.resources
+C:\Users\DELL\Source\Repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.HaskCheck.resources
+C:\Users\DELL\Source\Repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.Properties.Resources.resources
+C:\Users\DELL\Source\Repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.csproj.GenerateResource.cache
+C:\Users\DELL\Source\Repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Source\Repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.exe
+C:\Users\DELL\Source\Repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.pdb
