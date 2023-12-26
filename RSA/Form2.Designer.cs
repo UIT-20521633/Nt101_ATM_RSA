@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HaskCheck));
-            this.btShowCheck = new System.Windows.Forms.Button();
             this.btResetCheck = new System.Windows.Forms.Button();
             this.txtSHA1 = new System.Windows.Forms.TextBox();
             this.txtSHA256 = new System.Windows.Forms.TextBox();
@@ -43,33 +42,24 @@
             this.btOpenFile = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.txtCheck1 = new System.Windows.Forms.TextBox();
+            this.txtCheck2 = new System.Windows.Forms.TextBox();
+            this.txtCheck3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // btShowCheck
-            // 
-            this.btShowCheck.BackColor = System.Drawing.Color.LemonChiffon;
-            this.btShowCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btShowCheck.ForeColor = System.Drawing.Color.Black;
-            this.btShowCheck.Location = new System.Drawing.Point(583, 295);
-            this.btShowCheck.Margin = new System.Windows.Forms.Padding(4);
-            this.btShowCheck.Name = "btShowCheck";
-            this.btShowCheck.Size = new System.Drawing.Size(100, 28);
-            this.btShowCheck.TabIndex = 67;
-            this.btShowCheck.Text = "Hiển thị";
-            this.btShowCheck.UseVisualStyleBackColor = false;
             // 
             // btResetCheck
             // 
             this.btResetCheck.BackColor = System.Drawing.Color.LemonChiffon;
             this.btResetCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btResetCheck.ForeColor = System.Drawing.Color.Black;
-            this.btResetCheck.Location = new System.Drawing.Point(583, 252);
+            this.btResetCheck.Location = new System.Drawing.Point(592, 355);
             this.btResetCheck.Margin = new System.Windows.Forms.Padding(4);
             this.btResetCheck.Name = "btResetCheck";
             this.btResetCheck.Size = new System.Drawing.Size(100, 28);
             this.btResetCheck.TabIndex = 66;
             this.btResetCheck.Text = "Cài lại";
             this.btResetCheck.UseVisualStyleBackColor = false;
+            this.btResetCheck.Click += new System.EventHandler(this.btResetCheck_Click);
             // 
             // txtSHA1
             // 
@@ -161,6 +151,7 @@
             this.btCheck.TabIndex = 58;
             this.btCheck.Text = "Kiểm tra";
             this.btCheck.UseVisualStyleBackColor = false;
+            this.btCheck.Click += new System.EventHandler(this.btCheck_Click);
             // 
             // txtFileCheck
             // 
@@ -185,6 +176,7 @@
             this.btOpenFile.TabIndex = 56;
             this.btOpenFile.Text = "Mở ";
             this.btOpenFile.UseVisualStyleBackColor = false;
+            this.btOpenFile.Click += new System.EventHandler(this.btOpenFile_Click);
             // 
             // label9
             // 
@@ -210,13 +202,45 @@
             this.label8.TabIndex = 54;
             this.label8.Text = "HASH Check";
             // 
+            // txtCheck1
+            // 
+            this.txtCheck1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCheck1.ForeColor = System.Drawing.Color.Black;
+            this.txtCheck1.Location = new System.Drawing.Point(592, 218);
+            this.txtCheck1.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCheck1.Name = "txtCheck1";
+            this.txtCheck1.Size = new System.Drawing.Size(100, 26);
+            this.txtCheck1.TabIndex = 67;
+            // 
+            // txtCheck2
+            // 
+            this.txtCheck2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCheck2.ForeColor = System.Drawing.Color.Black;
+            this.txtCheck2.Location = new System.Drawing.Point(592, 257);
+            this.txtCheck2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCheck2.Name = "txtCheck2";
+            this.txtCheck2.Size = new System.Drawing.Size(100, 26);
+            this.txtCheck2.TabIndex = 68;
+            // 
+            // txtCheck3
+            // 
+            this.txtCheck3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCheck3.ForeColor = System.Drawing.Color.Black;
+            this.txtCheck3.Location = new System.Drawing.Point(592, 299);
+            this.txtCheck3.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCheck3.Name = "txtCheck3";
+            this.txtCheck3.Size = new System.Drawing.Size(100, 26);
+            this.txtCheck3.TabIndex = 69;
+            // 
             // HaskCheck
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btShowCheck);
+            this.Controls.Add(this.txtCheck3);
+            this.Controls.Add(this.txtCheck2);
+            this.Controls.Add(this.txtCheck1);
             this.Controls.Add(this.btResetCheck);
             this.Controls.Add(this.txtSHA1);
             this.Controls.Add(this.txtSHA256);
@@ -232,14 +256,13 @@
             this.Controls.Add(this.label8);
             this.Name = "HaskCheck";
             this.Text = "Hask Check";
+            this.Load += new System.EventHandler(this.HaskCheck_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btShowCheck;
         private System.Windows.Forms.Button btResetCheck;
         private System.Windows.Forms.TextBox txtSHA1;
         private System.Windows.Forms.TextBox txtSHA256;
@@ -253,5 +276,8 @@
         private System.Windows.Forms.Button btOpenFile;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtCheck1;
+        private System.Windows.Forms.TextBox txtCheck2;
+        private System.Windows.Forms.TextBox txtCheck3;
     }
 }

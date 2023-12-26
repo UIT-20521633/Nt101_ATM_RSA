@@ -21,3 +21,15 @@ C:\Users\DELL\Source\Repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.csproj.GenerateResour
 C:\Users\DELL\Source\Repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.csproj.CoreCompileInputs.cache
 C:\Users\DELL\Source\Repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.exe
 C:\Users\DELL\Source\Repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.pdb
+C:\Users\thanh\source\repos\Nt101_ATM_RSA\RSA\bin\Debug\RSA.exe.config
+C:\Users\thanh\source\repos\Nt101_ATM_RSA\RSA\bin\Debug\RSA.exe
+C:\Users\thanh\source\repos\Nt101_ATM_RSA\RSA\bin\Debug\RSA.pdb
+C:\Users\thanh\source\repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.csproj.AssemblyReference.cache
+C:\Users\thanh\source\repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.csproj.SuggestedBindingRedirects.cache
+C:\Users\thanh\source\repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.Form1.resources
+C:\Users\thanh\source\repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.HaskCheck.resources
+C:\Users\thanh\source\repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.Properties.Resources.resources
+C:\Users\thanh\source\repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.csproj.GenerateResource.cache
+C:\Users\thanh\source\repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.csproj.CoreCompileInputs.cache
+C:\Users\thanh\source\repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.exe
+C:\Users\thanh\source\repos\Nt101_ATM_RSA\RSA\obj\Debug\RSA.pdb
