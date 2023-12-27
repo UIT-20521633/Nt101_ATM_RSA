@@ -63,6 +63,16 @@ namespace RSA.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap background_tet_nguyen_dan_31_1 {
+            get {
+                object obj = ResourceManager.GetObject("background-tet-nguyen-dan-31_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hinh_nen_avatar_con_rong {
             get {
                 object obj = ResourceManager.GetObject("hinh-nen-avatar-con-rong", resourceCulture);

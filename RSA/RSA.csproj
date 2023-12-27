@@ -101,5 +101,9 @@
   <ItemGroup>
     <None Include="Resources\pngtree-happy-year-of-the-dragon-2024-font-png-image_13247914.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\background-tet-nguyen-dan-31_1.jpg" />
+    <None Include="Resources\background-tet-nguyen-dan-31_11.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
